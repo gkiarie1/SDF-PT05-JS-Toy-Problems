@@ -1,0 +1,28 @@
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+}
+
+h1{ 
+    text-align:center;
+    margin:0;
+    padding:20px;   
+    font-size: 64px; 
+}
+body{
+background:url("https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=754&h=502&fit=crop&dpr=1");
+margin:0;
+padding:0;
+}
+p {
+    text-align: center;
+    font-size: 32px;
+}
+a{
+    text-align: center;
+    font-size: 32px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    
+}
