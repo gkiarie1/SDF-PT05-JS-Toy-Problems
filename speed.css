@@ -1,0 +1,21 @@
+body{
+    background:url(https://upload.wikimedia.org/wikipedia/en/8/8e/Need_for_Speed_Most_Wanted_Box_Art.jpg) black;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: center;
+    color:white;
+}
+h1{ 
+    text-align:center;
+    margin:0;
+    padding:200px 0 0 0 ;   
+    font-size: 64px; 
+}
+p {
+    text-align: center;
+    font-size: 32px;
+}
