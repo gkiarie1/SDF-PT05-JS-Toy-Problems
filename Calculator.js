@@ -3,14 +3,14 @@ function displayGrade() {
     var message = `Score: ${score}\n`;
     if (score >79) {
       alert(message + "Congratulations! Keep up the good work. You got an A");
-    } else if (60 <= score && score <= 78) {
+    } else if (score >=60 && score <= 79) {
       alert(message + "Hooray! You have a B");
-    } else if (49 <= score && score <= 59) {
+    } else if (score >=50 && score <= 59) {
       alert(message + "Pull up your socks! You have a C");
-    } else if (40 <= score && score <= 48) {
+    } else if (score >=40 && score <= 49) {
       alert(message + "Work Harder! You have a D");
     } else if (
-        39<=score) {
+        score >=0 && score <=39) {
       alert(message + "Oops! You Failed. You have an E");
     }
 }
