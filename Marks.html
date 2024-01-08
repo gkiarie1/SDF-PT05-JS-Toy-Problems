@@ -9,12 +9,10 @@
 <body>
     <h1>MARKS CALCULATOR</h1>
     <p>Please fill out this form with the required information</p>
-   <form onsubmit="calculateGrade(); return false;">
+   <form onsubmit="displayGrade(); return false;">
       <fieldset>
-        <label for="html">Enter HTML score: <input id="html" type="number" required max="30" min="0" placeholder="0-30" /></label>
-        <label for="css">Enter CSS score: <input id="css" type="number" required max="30" min="0" placeholder="0-30"/></label>
-        <label for="javascript">Enter JavaScript score: <input id="javascript" type="number" min="0" required max="40"  placeholder="0-40"/></label>
-        <button type="submit" onclick="displayGrade()">Calculate Grade</button>
+        <label for="score">Enter Your Score: <input id="score" type="number" required max="100" min="0" placeholder="0-100" /></label>
+        <button type="submit">Calculate Grade</button>
     </fieldset>
       </form>
       <script src="Calculator.js"></script>
