@@ -8,9 +8,9 @@ function speedDetector(){
     alert("OK");
     }
 else{ 
-const demeritPoints = Math.floor((speed - speedLimit) / kmPerDemeritPoints);
+const demeritPoints = Math.round((speed - speedLimit) / kmPerDemeritPoints);
 
-if( demeritPoints>=12){
+if( demeritPoints>12){
     alert(`License Suspended ! Total demerit points: ${demeritPoints}`);
 }else{
     alert(`Demerit points: ${demeritPoints}`)
