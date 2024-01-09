@@ -10,7 +10,11 @@ h1{
     font-size: 64px; 
 }
 body{
-background:url("https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=754&h=502&fit=crop&dpr=1");
+background:url("https://th.bing.com/th/id/OIP.By_LE4tPv5OqsvH1s3QZWAHaEK?rs=1&pid=ImgDetMain");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height:100vh;
 margin:0;
 padding:0;
 }
@@ -19,10 +23,26 @@ p {
     font-size: 32px;
 }
 a{
+    padding:20px;
+}
+#marks{
     text-align: center;
     font-size: 32px;
     color:black;
     display: flex;
     justify-content: center;
-    
+}
+#speed{
+text-align: center;
+font-size: 32px;
+color:red;
+display: flex;
+justify-content: center;
+}
+#salary{
+text-align: center;
+font-size: 32px;
+color:rgb(97, 242, 97);
+display: flex;
+justify-content: center;
 }

@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="salary.css">
-<title>MARKS FORM</title>
+<title>SALARY FORM</title>
 </head>
 <body>
     <h1>NET TAX CALCULATOR</h1>
@@ -14,9 +14,11 @@
       <fieldset>
         <label for="basicSalary">ENTER YOUR GROSS SALARY: <input id="basicSalary" type="number" required min="0" /></label>
         <label for="benefits">ENTER YOUR BENEFITS: <input id="benefits" type="number" min="0" required></label>
-        <button type="button" onclick="calculateSalary()">Calculate salary</button>
+        <button type="button" onclick="netPay()">Calculate salary</button>
+        <div id="notificationBar" class="notification-bar"></div>
     </fieldset>
+    
       </form>
-      <script src="Net Salary Calculator.js"></script>
+      <script src="salary.js"></script>
 </body>
 </html>
