@@ -2,7 +2,7 @@ function displayGrade() {
   var score = parseInt(document.getElementById('score').value) || 0;
   var message = `SCORE: ${score}\n`;
   
- if (score > 79) {
+ if (score > 79 && score<=100) {
   showNotification(message + "Congratulations! Keep up the good work.\n You got an A");
   } else if (score >=60 && score <= 79) {
     showNotification(message + "Hooray! You have a B");
