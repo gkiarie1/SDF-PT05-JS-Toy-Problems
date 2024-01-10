@@ -1,8 +1,8 @@
 function displayGrade() {
-  var score = parseInt(document.getElementById('score').value) || 0;
-  var message = `SCORE: ${score}\n`;
+  let score = parseInt(document.getElementById('score').value);
+  let message = `SCORE: ${score}\n`;
   
- if (score > 79 && score<=100) {
+ if (score > 79 && score <= 100) {
   showNotification(message + "Congratulations! Keep up the good work.\n You got an A");
   } else if (score >=60 && score <= 79) {
     showNotification(message + "Hooray! You have a B");
@@ -13,8 +13,9 @@ function displayGrade() {
   } else if (
      score >=0 && score <=39) {
       showNotification(message + "Oops! You Failed. You have an E");
+  } else{
+    showNotification("Invalid Input")
   }
-}
 
 function showNotification(message) {
 
@@ -27,4 +28,5 @@ notificationBar.style.display = 'block';
 setTimeout(() => {
     notificationBar.style.display = 'none';
 }, 3000);
+}
 }

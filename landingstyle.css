@@ -6,8 +6,9 @@ html{
 h1{ 
     text-align:center;
     margin:0;
-    padding:20px;   
-    font-size: 64px; 
+    font-size: 80px;
+    color: white; 
+    font-family: 'Courier New', Courier, monospace;
 }
 body{
 background:url("https://th.bing.com/th/id/OIP.By_LE4tPv5OqsvH1s3QZWAHaEK?rs=1&pid=ImgDetMain");
@@ -20,7 +21,9 @@ padding:0;
 }
 p {
     text-align: center;
-    font-size: 32px;
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
 }
 a{
     padding:20px;
@@ -46,3 +49,15 @@ color:rgb(97, 242, 97);
 display: flex;
 justify-content: center;
 }
+button {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    height: 80px;
+    width: 350px;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 100px;
+    border: none;
+    
+  }

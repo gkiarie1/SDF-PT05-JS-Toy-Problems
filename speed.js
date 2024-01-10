@@ -3,14 +3,15 @@ function speedDetector(){
     const speedLimit=70;
     const kmPerDemeritPoints=5;
     
-    if (speed <= 70) {
+    if (speed >=0 && speed <= 70) {
         speedometer(speed, 'OK');
-    } else {
+}
+    else {
         const demeritPoints = Math.round((speed - speedLimit) / kmPerDemeritPoints);
 
         const status = demeritPoints > 12 ?  `License Suspended!\nDemerit points: ${demeritPoints}`: `Demerit points: ${demeritPoints}`;
         speedometer(speed, status, demeritPoints);
-}
+    }
     function speedometer(speed, status, demeritPoints) {
             const needle = document.getElementById('needle');
             const speedText = document.getElementById('speedValue');

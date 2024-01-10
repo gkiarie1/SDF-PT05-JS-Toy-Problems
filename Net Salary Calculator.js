@@ -1,6 +1,6 @@
 function grossPay() {
-  var basicSalary = parseFloat(document.getElementById('basicSalary').value) || 0;
-  var benefits = parseFloat(document.getElementById('benefits').value) || 0;
+  let basicSalary = parseFloat(document.getElementById('basicSalary').value) || 0;
+  let benefits = parseFloat(document.getElementById('benefits').value) || 0;
 
   return basicSalary + benefits;
 }
